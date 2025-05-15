@@ -8,8 +8,6 @@ async function main() {
 	const PumpFactoryAddress = "0x44E1c4fcDE5dD693AF979b1fa4E47Eb3E107aCdc";
 
 	const PumpFactoryFactory = await ethers.getContractFactory("PumpCloneFactory");
-	// const PumpFactory = await PumpFactoryFactory.deploy(routerAddress) as PumpCloneFactory;
-	// await PumpFactory.waitForDeployment();
 	const PumpFactory = PumpFactoryFactory.attach(PumpFactoryAddress)
 	console.log("This is PumpFactory address: ", await PumpFactory.getAddress())
 }
