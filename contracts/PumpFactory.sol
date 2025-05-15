@@ -83,6 +83,8 @@ contract PumpToken {
         return true;
     }
 
+    // transferTo function
+
     function transfer(address to, uint256 amount) external returns (bool) {
         require(balanceOf[msg.sender] >= amount, "Insufficient balance");
         balanceOf[msg.sender] -= amount;
