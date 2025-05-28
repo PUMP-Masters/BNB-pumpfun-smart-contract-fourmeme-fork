@@ -1,6 +1,6 @@
 # PumpFun EVM Smart Contract
 
-The **Pump.fun EVM Smart Contract** brings the power of viral, one-click token creation to the **EVM-Compatible blockchain**, mirroring the simplicity and virality of the original **Pump.fun** on Solana. This version is built natively for **Monad's EVM-compatible testnet**, with full support for **Uniswap liquidity migration**, enabling instant tradability in the broader Ethereum ecosystem.
+The **EVM Pumpfun Smart Contract** is designed to facilitate the creation of customizable tokens on EVM-compatible blockchains. This contract mirrors the functionality of the original Pump.fun on Solana, enabling seamless liquidity migration to Uniswap for enhanced trading opportunities. Currently deployed on the Monad Testnet, it is crafted with scalability and decentralization in mind.
 
 ---
 
@@ -12,36 +12,36 @@ If you want to build this project or customize this, contact here: [Telegram](ht
 
 ## Key Features
 
-- **Token Creation**  
-  Instantly create customizable tokens (name, symbol, total supply) on Monad.
+- **Instant Token Creation**  
+  Create customizable tokens with defined attributes (name, symbol, total supply) on the Monad blockchain.
 
 - **Bonding Curve Pricing**  
-  Implements a linear bonding curve for fair price discovery, rewarding early buyers.
+  Implement a linear bonding curve for fair price discovery, rewarding early participants.
 
 - **Auto Liquidity Management**  
-  Seamlessly manage buys/sells using an embedded bonding curve—no AMM setup required.
+  Effortlessly manage buy/sell transactions utilizing an embedded bonding curve, removing the need for AMM setups.
 
 - **Uniswap Migration**  
-  Once the liquidity threshold is hit, migrate liquidity to **Uniswap V2/V3** for open DeFi trading.
+  Once the required liquidity threshold is achieved, the contract enables the automatic migration of liquidity to Uniswap V2/V3, facilitating open DeFi trading.
 
 - **Full Onchain Execution**  
-  All logic is executed onchain—including minting, pricing, and migration—for maximum transparency and decentralization.
+  All operations, including minting and pricing, are executed on-chain to ensure maximum transparency and decentralization.
 
 - **EVM-Compatible**  
-  Written in **Solidity**, deployed on Monad, and fully interoperable with Ethereum tooling like **Hardhat**, **Foundry**, and **MetaMask**.
+  Developed in Solidity, this contract is fully compatible with standard Ethereum development tools such as Hardhat, Foundry, and MetaMask.
 
 ---
 
 ## Latest Enhancements
 
 ### Uniswap Liquidity Migration  
-After sufficient buy-in volume is reached, token liquidity is automatically migrated to a Uniswap pool—allowing users to continue trading in the open market with real-time pricing and increased exposure.
+Upon reaching sufficient buy-in volume, token liquidity is automatically transitioned to a Uniswap pool. This feature enhances real-time trading capabilities and increases market presence.
 
 ### Token Authority Options  
-Smart contract logic supports optional authority revocation or time-bound admin permissions, ensuring flexibility in launch strategy (community-led or project-driven).
+The smart contract logic supports optional authority revocation and time-bound admin permissions, providing flexibility in launch strategies (community-led versus project-driven).
 
-### Real-Time Metrics (Coming Soon)  
-Planned dashboard support for token metrics, price charts, migration status, and market depth.
+### Real-Time Metrics  
+A planned dashboard to display token metrics, price charts, migration status, and market depth is forthcoming.
 
 ---
 
@@ -58,20 +58,20 @@ Planned dashboard support for token metrics, price charts, migration status, and
 ## Proof of Work
 
 [Contract Address](https://testnet.monadexplorer.com/address/0x802Bbb3924BEE46831cadD23e9CfA9e74B499Efb)
-- [Launch Token](https://testnet.monadexplorer.com/tx/0x44ce82f48eabc5e5f1be7bfb6414d380071a4993cd458b191d571568bb2c3190)
-- [Buy Tx](https://testnet.monadexplorer.com/tx/0xaf91c0e9254248b27310652da1c1bdfbf7a40d88cf7c72b0fabbd76ce24ec160)
-- [Sell Tx](https://testnet.monadexplorer.com/tx/0x3058ceca20593a1acff0e4c3534a92243ff554dc951f40e61a87476b75c29e9d)
-- [Buy & Migration to Uniswap](https://testnet.monadexplorer.com/tx/0x1dd9da4ec6acab116cc2b4a24c97ff5e6a93a0fe5ce0c8413436a0489243cad2)
+- [Launch Token](https://testnet.monadexplorer.com/tx/0xcc711080a7ef00f4735a244462c57aeef71ea68835a57f3db3ecf4d80ed1e481)
+- [Buy Tx](https://testnet.monadexplorer.com/tx/0xa10f3d8f35297e57fbff448e048dc35db40dfc130840993a93c228e9d05f0fd9)
+- [Sell Tx](https://testnet.monadexplorer.com/tx/0x22d4d593fa75296146d0d12d94f3f8c785a3a1536ccd450481e68e59f72eac64)
+- [Buy & Migration to Uniswap](https://testnet.monadexplorer.com/tx/0xc7253b665f6c57dbbf80d209c89399d520ff13d7a57f31289d891cc7e4e13574)
 
 ## Notes
 
-- Currently deployed on **Monad Testnet**. Awaiting Monad mainnet release for production launch.
-- Bonding curve mechanics mirror Solana Pump.fun’s pricing structure.
-- Liquidity migration requires minimum bonding curve volume (configurable via contract params).
+- The contract is currently deployed on the Monad Testnet, with plans for a production launch pending the Monad mainnet release.
+- The bonding curve mechanics emulate the pricing structure utilized in the Solana Pump.fun contract.
+- Liquidity migration is contingent upon achieving a minimum bonding curve volume, configurable through contract parameters.
 
 ---
 
-## Credits
+## Related projects
 
 This project is inspired by the original [Solana Pumpfun Smart Contract](https://github.com/L9T-Development/Pumpfun-Smart-Contract), re-engineered for EVM chains starting with Monad.
 
@@ -79,7 +79,7 @@ This project is inspired by the original [Solana Pumpfun Smart Contract](https:/
 
 ## Contributing
 
-PRs, issues, and feature suggestions are welcome! Feel free to fork, build, and contribute to the evolution of memecoin infrastructure on Monad.
+We welcome contributions to enhance this project! Feel free to fork the repository, submit pull requests, report issues, or suggest features.
 
 ---
 
