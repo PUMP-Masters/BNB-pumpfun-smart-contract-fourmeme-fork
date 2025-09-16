@@ -73,7 +73,7 @@ A planned dashboard to display token metrics, price charts, migration status, an
 
 ## Related projects
 
-This project is inspired by the original [Solana Pumpfun Smart Contract](https://github.com/L9T-Development/Pumpfun-Smart-Contract), re-engineered for EVM chains starting with Monad.
+This project is inspired by the original [Solana Pumpfun Smart Contract](https://github.com/L9T-Lab/Pumpfun-Smart-Contract), re-engineered for EVM chains starting with Monad.
 
 ---
 
