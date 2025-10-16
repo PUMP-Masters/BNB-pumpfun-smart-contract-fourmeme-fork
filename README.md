@@ -1,6 +1,6 @@
-# PumpFun EVM Smart Contract
+# BNB PumpFun Smart Contract - FourMeme(four.meme) fork 
 
-The **EVM Pumpfun Smart Contract** is designed to facilitate the creation of customizable tokens on EVM-compatible blockchains. This contract mirrors the functionality of the original Pump.fun on Solana, enabling seamless liquidity migration to Uniswap for enhanced trading opportunities. Currently deployed on the Monad Testnet, it is crafted with scalability and decentralization in mind.
+The **BNB Pumpfun Smart Contract(four.meme fork)** is designed to facilitate the creation of customizable tokens on EVM-compatible blockchains. This contract mirrors the functionality of the original Pump.fun on Solana, enabling seamless liquidity migration to Uniswap for enhanced trading opportunities. Currently deployed on the Monad Testnet, it is crafted with scalability and decentralization in mind.
 
 ---
 
